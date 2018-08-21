@@ -140,9 +140,7 @@ const config = (platform, launchArgs) => {
     },
 
     externals: NativeScriptVueExternals,
-
     plugins: plugins,
-
     stats: 'errors-only',
     devtool: 'source-map',
     node: {
