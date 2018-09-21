@@ -20,7 +20,6 @@ switch (action) {
   case 'build':
     winston.info('Building NativeScript application...');
     break;
-
   case 'debug':
     winston.info('Debugging NativeScript application...');
     break;
