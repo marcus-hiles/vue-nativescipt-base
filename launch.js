@@ -36,6 +36,7 @@ if (action !== 'run' && !platform) {
     if(code != 0) process.exit(code)
   });
   tnsiOSProcess.stdout.pipe(process.stdout);
+  
   tnsiOSProcess.on('exit', function (code) {
     if(code != 0) process.exit(code)
   });
