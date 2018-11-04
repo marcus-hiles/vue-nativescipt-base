@@ -18,6 +18,7 @@ function copyNativeScriptPlugins () {
       return obj;
     }, {});
   Object.assign(tplPackage.dependencies, plugins);
+  
   fs.writeFileSync(tplPath + '/package.json', JSON.stringify(tplPackage, null, 2));
 }
 
